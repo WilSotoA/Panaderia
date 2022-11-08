@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DulcePan</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/index.css"/>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div class="containernav">
+        <picture class="containericon">
+          <img src="images/icon.jpeg" alt="icono panaderia" class="icon" />
+        </picture>
+        <nav class="nav">
+          <ul class="list">
+            <li class="item">
+              <a href="#header" class="btn btninicio">Inicio</a>
+            </li>
+            <li class="item">
+              <a href="#sobrenosotros" class="btn btnsobrenosotros"
+                >Sobre Nosotros</a
+              >
+            </li>
+            <li class="item">
+              <a href="#contacto" class="btn btncontacto">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="item ingresar">
+          <a href="php/login.php" class="btn btningresar">ingresar</a>
+        </div>
+      </div>
+      <div class="containercarrusel">
+        <picture class="carrusel" id="slider">
+          <div class="slidersection">
+            <img
+              class="imgcarrusel carrusel1"
+              src="images/imgcarrusel1.jpg"
+              alt="imagen panaderia"
+            />
+          </div>
+          <div class="slidersection">
+            <img
+              class="imgcarrusel carrusel2"
+              src="images/imgcarrusel2.jpg"
+              alt="imagen panaderia"
+            />
+          </div>
+          <div class="slidersection">
+            <img
+              class="imgcarrusel carrusel3"
+              src="images/imgcarrusel3.jpg"
+              alt="imagen panaderia"
+            />
+          </div>
+          <div class="slidersection">
+            <img
+              class="imgcarrusel carrusel4"
+              src="images/imgcarrusel4.jpg"
+              alt="imagen panaderia"
+            />
+          </div>
+        </picture>
+        <div id="flechaizquierda" class="flecha flechaizquierda">
+          <img
+            class="flechas"
+            src="images/svg/leftarrow.svg"
+            alt="flechaizquierda"
+          />
+        </div>
+        <div id="flechaderecha" class="flecha flechaderecha">
+          <img
+            class="flechas"
+            src="images/svg/rightarrow.svg"
+            alt="flechaderecha"
+          />
+        </div>
+      </div>
+    </header>
+    <section id="sobrenosotros" class="sobrenosotros">
+      <div class="main">
+        <h1 class="titulo animado">Sobre Nosotros</h1>
+        <img src="" alt="" class="icon2" />
+      </div>
+      <article class="articulo">
+        <div class="texto animado">
+          <p class="parrafo">
+            Somos una empresa constituida desde 1987, con el fin de garantizar
+            un sinfin de delicias y manjares que deleitan a todos los cucuteños.
+          </p>
+          <picture class="imgtexto">
+            <img src="images/panadero.jpg" alt="panadero" class="imgparrafo" />
+          </picture>
+        </div>
+      </article>
+      <article class="articulo">
+        <div class="texto texto2 animado">
+          <picture class="imgtexto imgtexto2">
+            <img
+              src="images/local.jpg"
+              alt="local"
+              class="imgparrafo imgparrafo2"
+            />
+          </picture>
+          <p class="parrafo parrafo2">
+            Cumplimos con los mas altos estandares de calidad y estamos
+            comprometidos a garantizar un buen servicio a nuestros clientes.
+          </p>
+        </div>
+      </article>
+    </section>
+    <footer id="contacto" class="footer">
+      <div class="containerfooter">
+        <div class="sectionfooter">
+          <figure class="containerlogo">
+            <a href="#header">
+              <img class="footerlogo" src="images/icon.jpeg" alt="Logo" />
+            </a>
+          </figure>
+        </div>
+        <div class="sectionfooter">
+          <h2 class="titulofooter">CONTACTANOS</h2>
+          <p class="has-icon itemcontacto"><i class="fa fa-phone"></i> 3219282112</p>
+          <p class="has-icon itemcontacto"><i class="fa fa-location-arrow"></i> ATALAYA</p>
+          <p class="has-icon itemcontacto">
+            <i class="fa fa-envelope"></i> infoDulcepan@gmail.com
+          </p>
+          <p class="has-icon itemcontacto">
+            <i class="fa fa-globe "></i>
+            <a class="sitioweb" href="http://www.Dulcepan.com/"> www.Dulcepan.com</a>
+          </p>
+        </div>
+        <div class="sectionfooter">
+          <h2 class="titulofooter">UNETE A NUESTRA COMUNIDAD</h2>
+          <div class="red-social">
+            <a href="#" class="fa fa-facebook iconred"></a>
+            <a href="#" class="fa fa-instagram iconred"></a>
+            <a href="#" class="fa fa-twitter iconred"></a>
+            <a href="#" class="fa fa-youtube iconred"></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <small class="copytext"><span class="negrita">&copy; 2022 WILMER, YEIMI , ALIRIO </span> - Todos los Derechos Reservados.</small>
+      </div>
+    </footer>
+    <div class="container-boton">
+      <a href="https://wa.me/3213494079?text=Quiero%20realizar%20un%20proyecto%20web%20php" target="_blank">
+        <img class="boton" src="images/icono.png" alt="icono WhatsApp" />
+      </a>
+    </div>
+  </body>
+  <script src="js/navfija.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/animar.js"></script>
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</html>
